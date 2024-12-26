@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../font/Poppins-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6,p,a
+{
+    margin-bottom: 0 !important;
+}
+a,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+input:focus,
+select:focus,
+.form-control:focus,
+button:focus,
+.btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border-color: inherit;
+}
+img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body {
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+  }
+header
+{
+    background-color: #091023;
+    background-image: url(../img/bgred.png);
+    background-repeat: no-repeat;
+}
+
+.mt-96
+{
+    margin-top: 96px;
+}
+.mt-32
+{
+    margin-top: 32px;
+}
+.nav-link
+{
+    color: #ffffff !important;
+    margin-left: 48px;
+}
+.btn-login
+{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.btn-login:hover
+{
+    background-color: #CE1F37;
+    border: 1px solid #CE1F37;
+}
+
+@media only screen and (max-width:426px)
+{
+    .navbar-nav
+    {
+        text-align: center;
+    }
+}
+
+
+/* Hero */
+.hero
+{
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 130px 0;
+    background-color: #f2f2f2;
+}
+.main-heading{
+    font-size: 55px;
+    font-weight: 600;
+    color: #091023;
+}
+.body-text{
+    color: #383D4C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.text-center{
+    font-size: 38px;
+    font-weight: 600;
+    color: #091023;
+}
+.property-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #091023;
+}
+.property-info{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A404F;
+    margin-top: 6px;
+}
+.facility
+{
+    margin-top: 16px;
+    font-weight: 600;
+}
+.facility .item
+{
+    margin-left: 17px;
+}
+.facility b,.facility p
+{
+    margin-left: 4px;
+}
+.property-contact{
+    margin-top: 16px;
+    font-weight: 500;
+}
+.property-contact .item,.property-contact .item p
+{
+    margin-left: 8px;
+    font-size: 12px;
+    
+}
+.property-contact .item,.whatsapp
+{
+    border: 1px solid #e1e1e1;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
