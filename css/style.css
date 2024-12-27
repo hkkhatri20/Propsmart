@@ -103,6 +103,7 @@ header
     font-weight: 600;
     color: #091023;
 }
+
 .property-title{
     font-size: 22px;
     font-weight: 600;
@@ -143,3 +144,153 @@ header
     padding: 6px 10px;
     border-radius: 4px;
 }
+/* work */
+.work {
+    margin: 96px 172px;
+}
+.work .heading{
+    margin-left: 48px;
+    color: #091023;
+    font-size: 38px;
+    font-family: "Poppins-Semi-bold";
+}
+.work .sub-heading{
+    font-size: 24px;
+    margin-left: 48px;
+    margin-top: 20px;
+    font-family: "Poppins-Semi-bold";
+    color: #091023;
+}
+.work .sub-heading span{
+    padding: 7px 7px;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #CE1F37;
+    margin-right:5px;
+    font-size: 14px;
+}
+.work .body-text{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 80px;
+    color: #354264;
+}
+/* feature */
+.feature-choose h2{
+    font-weight: 600;
+    margin-top: 96px;
+    font-size: 38px;
+    color: #091023;
+}
+.feature-choose .body-text{
+    margin: 24px 222px;
+    font-size: 16px;
+    color: #354264;
+}
+.feature-choose .container .f-baner{
+    display: flex;
+    margin: 24px;
+}
+.feature-choose .baner img{
+    width: 35px;
+    height: 35px;
+}
+
+.feature-choose .f-baner .baner{
+    width: 350px;
+    height: 150px;
+    padding: 16px 57px;
+   
+} 
+.feature-choose .f-baner .baner h3{
+    font-size: 22px;
+    color: #091023;
+}
+.feature-choose .f-baner .baner p{
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* frequently */
+.frequently  h2{
+    font-weight: 600;
+    margin-top: 96px;
+    font-size: 38px;
+    color: #091023;
+}
+.frequently .body-text{
+    margin-top: 24px ;
+    font-size: 16px;
+    color: #354264;
+}
+.frequently .accordion{
+    margin-top: 24px;
+}
+/* register */
+.register {
+    display: flex;
+    margin: 96px;
+}
+.register h2{
+    font-size: 38px;
+    color: #091023;
+    font-weight: 600;
+}
+.register p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #354264;
+    font-weight: 300;
+   
+}
+.register .form-input {
+    margin: 0px 90px;
+}
+.register .form-input input{
+    border: none;
+    margin-top: 14px;
+}
+.register button{
+    padding: 5px 25px;
+    margin-right: 150px;
+    color: #ffffff;
+    background-color: #CE1F37;
+    border: none;
+}
+/* footer */
+.footer {
+    display: flex;
+    background-color: #091023;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 105px 90px;
+    
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+
+}
+ .footer .props{
+    display: flex;
+    color: #ffffff;
+}
+.footer .props h2{
+    font-size: 30px;
+    font-family: "Poppins-Semi-bold";
+}
+.footer a{
+    font-size: 14px;  
+    color: #ffffff;
+    margin: 2px;
+}
+.footer .text-end img{ 
+    padding: 5px 5px;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 44px;
+}  
